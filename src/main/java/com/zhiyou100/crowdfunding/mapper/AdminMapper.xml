@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhiyou100.crowdfunding.mapper.AdminMapper">
+	<!-- 定义AdminMap -->
+	<resultMap id="AdminMap"
+		type="com.zhiyou100.crowdfunding.model.Admin">
+		<id column="admin_id" property="id"></id>
+		<result column="admin_name" property="name"></result>
+		<result column="admin_password" property="password"></result>
+		<result column="gender" property="gender"></result>
+		<result column="admin_account_name" property="accountName"></result>
+	</resultMap>
+	<!-- 添加数据 -->
+	<insert id="doCreate"
+		parameterType="com.zhiyou100.crowdfunding.model.Admin">
+		INSERT INTO admin(admin_id, admin_name, admin_password,
+		gender, admin_account_name) VALUES
+		(#{id}, #{name}, #{password},
+		#{gender}, #{accountName});
+	</insert>
+	<!-- 修改数据 -->
+	<update id="doUpdate"
+		parameterType="com.zhiyou100.crowdfunding.model.Admin">
+		UPDATE admin SET admin_name = #{name},
+		admin_password =
+		#{password}, gender = #{gender}, admin_account_name =
+		#{accountName}
+		WHERE admin_id = #{id};
+	</update>
+	<!-- 单个删除 -->
+	<delete id="doRemove" parameterType="java.lang.Integer">
+		DELETE FROM admin WHERE
+		admin_id = #{id};
+	</delete>
+	<!-- 批量删除 -->
+	<delete id="doRemoveBatch" parameterType="java.lang.Integer">
+		DELETE FROM admin WHERE admin_id IN
+		<foreach item="col" collection="collection" open="("
+			separator="," close=")">
+			#{col}
+		</foreach>
+	</delete>
+	<!-- 根据id查询 -->
+	<select id="findById" parameterType="java.lang.Integer"
+		resultMap="AdminMap">
+		SELECT admin_id, admin_name, admin_password, gender,
+		admin_account_name FROM
+		admin WHERE admin_id = #{id};
+	</select>
+	<!-- 根据用户名查询 -->
+	<select id="login" parameterType="java.util.Map"
+		resultMap="AdminMap">
+		SELECT admin_id, admin_name, admin_password, gender,
+		admin_account_name FROM
+		admin WHERE admin_account_name = #{accountName} AND admin_password = #{password};
+	</select>
+	<!-- 查询所有 -->
+	<select id="findAll" resultMap="AdminMap">
+		SELECT admin_id, admin_name,
+		admin_password, gender, admin_account_name FROM admin;
+	</select>
+	<!-- 查询所有id -->
+	<select id="findAllId" resultType="java.lang.Integer">
+		SELECT admin_id FROM admin;
+	</select>
+	<!-- 查询所有行数 -->
+	<select id="findAllCount" resultType="java.lang.Long">
+		SELECT COUNT(0) FROM admin;
+	</select>
+	<!-- 条件查询行数 -->
+	<select id="findCountByColumn" parameterType="java.util.Map"
+		resultType="java.lang.Long">
+		SELECT COUNT(0) FROM admin
+		<if test="column != null and keyword != null">
+			WHERE ${column} LIKE #{keyword}
+		</if>
+		;
+	</select>
+	<!-- 分页查询 -->
+	<select id="findAllSplit" parameterType="java.util.Map"
+		resultMap="AdminMap">
+		SELECT admin_id, admin_name, admin_password, gender,
+		admin_account_name FROM admin LIMIT #{start}, #{lineSize};
+	</select>
+	<!-- 模糊分页查询 -->
+	<select id="findSplitByColumn" parameterType="java.util.Map"
+		resultMap="AdminMap">
+		SELECT admin_id, admin_name, admin_password, gender,
+		admin_account_name FROM admin
+		<if test="column != null and keyword != null">
+			WHERE ${column} LIKE #{keyword}
+		</if>
+		LIMIT #{start}, #{lineSize};
+	</select>
+</mapper>

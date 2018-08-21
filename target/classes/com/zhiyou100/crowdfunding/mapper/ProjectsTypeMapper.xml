@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhiyou100.crowdfunding.mapper.ProjectsTypeMapper">
+	<!-- 定义ProjectsTypeMap -->
+	<resultMap id="ProjectsTypeMap"
+		type="com.zhiyou100.crowdfunding.model.ProjectsType">
+		<id column="pst_id" property="id"></id>
+		<result column="pst_name" property="name"></result>
+		<result column="pst_desc" property="desc"></result>
+		<result column="pst_startdate" property="startDate"></result>
+		<result column="pst_type" property="type"></result>
+	</resultMap>
+	<!-- 添加数据 -->
+	<insert id="doCreate"
+		parameterType="com.zhiyou100.crowdfunding.model.ProjectsType">
+		INSERT INTO projectstype(pst_id, pst_name, pst_desc,
+		pst_startdate, pst_type) VALUES
+		(#{id}, #{name}, #{desc},
+		#{startDate}, #{type});
+	</insert>
+	<!-- 修改数据 -->
+	<update id="doUpdate"
+		parameterType="com.zhiyou100.crowdfunding.model.ProjectsType">
+		UPDATE projectstype SET pst_name = #{name},
+		pst_desc =
+		#{desc}, pst_startdate = #{startDate}, pst_type =
+		#{type} WHERE pst_id = #{id};
+	</update>
+	<!-- 单个删除 -->
+	<delete id="doRemove" parameterType="java.lang.Integer">
+		DELETE FROM projectstype WHERE
+		pst_id
+		= #{id};
+	</delete>
+	<!-- 批量删除 -->
+	<delete id="doRemoveBatch" parameterType="java.lang.Integer">
+		DELETE FROM projectstype WHERE pst_id IN
+		<foreach item="col" collection="collection" open="("
+			separator="," close=")">
+			#{col}
+		</foreach>
+	</delete>
+	<!-- 根据id查询 -->
+	<select id="findById" parameterType="java.lang.Integer"
+		resultMap="ProjectsTypeMap">
+		SELECT pst_id, pst_name, pst_desc, pst_startdate,
+		pst_type FROM
+		projectstype WHERE pst_id = #{id};
+	</select>
+	<!-- 查询所有 -->
+	<select id="findAll" resultMap="ProjectsTypeMap">
+		SELECT pst_id, pst_name,
+		pst_desc, pst_startdate, pst_type FROM projectstype;
+	</select>
+	<!-- 查询所有id -->
+	<select id="findAllId" resultType="java.lang.Integer">
+		SELECT pst_id FROM projectstype;
+	</select>
+	<!-- 查询所有行数 -->
+	<select id="findAllCount" resultType="java.lang.Long">
+		SELECT COUNT(0) FROM projectstype;
+	</select>
+	<!-- 条件查询行数 -->
+	<select id="findCountByColumn" parameterType="java.util.Map"
+		resultType="java.lang.Long">
+		SELECT COUNT(0) FROM projectstype
+		<if test="column != null and keyword != null">
+			WHERE ${column} LIKE #{keyword}
+		</if>
+		;
+	</select>
+	<!-- 分页查询 -->
+	<select id="findAllSplit" parameterType="java.util.Map"
+		resultMap="ProjectsTypeMap">
+		SELECT pst_id, pst_name, pst_desc, pst_startdate,
+		pst_type FROM projectstype LIMIT #{start}, #{lineSize};
+	</select>
+	<!-- 模糊分页查询 -->
+	<select id="findSplitByColumn" parameterType="java.util.Map"
+		resultMap="ProjectsTypeMap">
+		SELECT pst_id, pst_name, pst_desc, pst_startdate,
+		pst_type FROM projectstype
+		<if test="column != null and keyword != null">
+			WHERE ${column} LIKE #{keyword}
+		</if>
+		LIMIT #{start}, #{lineSize};
+	</select>
+</mapper>

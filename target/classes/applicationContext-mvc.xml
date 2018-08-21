@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        ">
+	<!-- 扫描 -->
+	<context:annotation-config />
+	<context:component-scan
+		base-package="com.zhiyou100.crowdfunding" />
+	<!--springmvc注解配置 -->
+	<mvc:annotation-driven />
+	<mvc:default-servlet-handler /> <!--处理请求的servlet -->
+	
+	 <!-- 安全访问路径资源匹配处理 -->  
+    <bean id="viewResovler" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+    	<!-- 匹配前缀 -->
+    	<property name="prefix" value="/WEB-INF/pages/" />
+    	<!-- 匹配后缀 -->
+    	<property name="suffix" value=".jsp" />
+    </bean>
+    
+    <!-- JSON配置 添加xmlns:p-->
+    <!--json格式数据转换的配置  -->
+    <bean
+        class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter"
+        p:ignoreDefaultModelOnRedirect="true">
+        <property name="messageConverters">
+            <list>
+                <bean
+             class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter" />
+            </list>
+        </property>
+    </bean>    
+    <!-- 文件上传配置支持 -->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+    <!-- 设置上传文件最大限制 -->
+    <property name="MaxUploadSize" value="5242880"></property>
+    <!-- 设置内存限制 -->
+    <property name="MaxInMemorySize" value="4096"></property>
+    <property name="defaultEncoding" value="UTF-8"></property>
+    </bean>
+    <mvc:interceptors>
+    	<mvc:interceptor>
+    		<mvc:mapping path="/projects/publish/*.action"/>
+    		<bean class="com.zhiyou100.crowdfunding.utils.interceptor.ProjectsPublishInterceptor"></bean>
+    	</mvc:interceptor>
+    	<mvc:interceptor>
+    		<mvc:mapping path="/user/center/*.action"/>
+    		<bean class="com.zhiyou100.crowdfunding.utils.interceptor.UserCenterInterceptor"></bean>
+    	</mvc:interceptor>
+    </mvc:interceptors>    
+</beans>

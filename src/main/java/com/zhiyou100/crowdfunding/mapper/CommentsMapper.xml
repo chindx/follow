@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper
+	namespace="com.zhiyou100.crowdfunding.mapper.CommentsMapper">
+	<!-- 定义CommentsMap -->
+	<resultMap id="CommentsMap"
+		type="com.zhiyou100.crowdfunding.model.Comments">
+		<id column="cm_id" property="id"></id>
+		<result column="cm_us_id" property="userId"></result>
+		<result column="cm_ps_id" property="psId"></result>
+		<result column="cm_content" property="content"></result>
+		<result column="cm_time" property="time"></result>
+		<association property="user" javaType="User">
+			<id column="us_id" property="id" />
+			<result column="us_name" property="name" />
+		</association>
+		<association property="projects" javaType="Projects">
+			<id column="ps_id" property="id" />
+			<result column="ps_name" property="name"/>
+		</association>
+	</resultMap>
+	<!-- 添加数据 -->
+	<insert id="doCreate"
+		parameterType="com.zhiyou100.crowdfunding.model.Comments">
+		INSERT INTO comments(cm_id, cm_us_id, cm_ps_id,
+		cm_content, cm_time) VALUES
+		(#{id}, #{userId}, #{psId},
+		#{content},
+		#{time});
+	</insert>
+	<!-- 修改数据 -->
+	<update id="doUpdate"
+		parameterType="com.zhiyou100.crowdfunding.model.Comments">
+		UPDATE comments SET cm_us_id = #{userId},
+		cm_ps_id =
+		#{psId}, cm_content = #{content}, cm_time =
+		#{time} WHERE cm_id =
+		#{id};
+	</update>
+	<!-- 单个删除 -->
+	<delete id="doRemove" parameterType="java.lang.Integer">
+		DELETE FROM comments WHERE
+		cm_id
+		= #{id};
+	</delete>
+	<!-- 批量删除 -->
+	<delete id="doRemoveBatch" parameterType="java.lang.Integer">
+		DELETE FROM comments WHERE cm_id IN
+		<foreach item="col" collection="collection" open="("
+			separator="," close=")">
+			#{col}
+		</foreach>
+	</delete>
+	<!-- 根据id查询 -->
+	<select id="findById" parameterType="java.lang.Integer"
+		resultMap="CommentsMap">
+		SELECT cm_id, cm_us_id, cm_ps_id, cm_content,
+		cm_time FROM
+		comments WHERE cm_id = #{id};
+	</select>
+	<!-- 查询所有 -->
+	<select id="findAll" resultMap="CommentsMap">
+		SELECT cm_id, cm_us_id,
+		cm_ps_id,
+		cm_content, cm_time FROM comments;
+	</select>
+	<!-- 查询所有id -->
+	<select id="findAllId" resultType="java.lang.Integer">
+		SELECT cm_id FROM comments;
+	</select>
+	<!-- 查询所有行数 -->
+	<select id="findAllCount" resultType="java.lang.Long">
+		SELECT COUNT(0) FROM
+		comments;
+	</select>
+	<!-- 条件查询行数 -->
+	<select id="findCountByColumn" parameterType="java.util.Map"
+		resultType="java.lang.Long">
+		SELECT COUNT(0) FROM comments
+		<if test="column != null and keyword != null">
+			WHERE ${column} LIKE #{keyword}
+		</if>
+		;
+	</select>
+	<!-- 分页查询 -->
+	<select id="findAllSplit" parameterType="java.util.Map"
+		resultMap="CommentsMap">
+		SELECT c.cm_id, c.cm_us_id, c.cm_ps_id, c.cm_content,
+		c.cm_time,
+		u.us_id, u.us_name, ps.ps_id, ps.ps_name FROM comments c
+		LEFT JOIN user
+		u ON c.cm_us_id=u.us_id
+		LEFT JOIN projects ps ON c.cm_ps_id=ps.ps_id LIMIT #{start}, #{lineSize};
+	</select>
+	<!-- 模糊分页查询 -->
+	<select id="findSplitByColumn" parameterType="java.util.Map"
+		resultMap="CommentsMap">
+		SELECT c.cm_id, c.cm_us_id, c.cm_ps_id, c.cm_content,
+		c.cm_time,
+		u.us_id, u.us_name, ps.ps_id, ps.ps_name FROM comments c
+		LEFT JOIN user
+		u ON c.cm_us_id=u.us_id
+		LEFT JOIN projects ps ON c.cm_ps_id=ps.ps_id
+		<if test="column != null and keyword != null">
+			WHERE ${column} LIKE #{keyword}
+		</if>
+		LIMIT #{start}, #{lineSize};
+	</select>
+</mapper>

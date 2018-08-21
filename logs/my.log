@@ -1,0 +1,1124 @@
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:51:17:828
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:51:18:151
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c767a52: startup date [Fri Jun 29 19:51:18 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:51:18:195
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:51:18:196
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:51:18:274
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:51:18:347
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:51:18:496
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19dfb72a: startup date [Fri Jun 29 19:52:34 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:52:34:156
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:52:34:207
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:52:34:536
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c767a52: startup date [Fri Jun 29 19:52:34 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:52:34:580
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:52:34:580
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:52:34:661
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:52:34:752
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:52:34:907
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19dfb72a: startup date [Fri Jun 29 19:53:23 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:53:23:189
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:53:23:252
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:53:23:603
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c767a52: startup date [Fri Jun 29 19:53:23 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:53:23:648
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:53:23:649
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:53:23:737
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:53:23:808
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:53:23:935
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1uj9wkx21s3z4i3u7|3f1d2e23, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1uj9wkx21s3z4i3u7|3f1d2e23, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:53:24:714
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19dfb72a: startup date [Fri Jun 29 19:53:29 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:53:29:600
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:53:29:654
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:53:29:975
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c767a52: startup date [Fri Jun 29 19:53:30 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:53:30:018
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:53:30:018
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:53:30:155
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:53:30:238
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:53:30:366
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1uj9wkx26qlhhb547|3f1d2e23, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1uj9wkx26qlhhb547|3f1d2e23, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:53:31:166
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19dfb72a: startup date [Fri Jun 29 19:53:39 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:53:39:829
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:53:39:895
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:53:40:214
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c767a52: startup date [Fri Jun 29 19:53:40 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:53:40:266
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:53:40:267
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:53:40:351
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:53:40:428
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:53:40:548
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1uj9wkx2elm117c6y7|3f1d2e23, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1uj9wkx2elm117c6y7|3f1d2e23, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:53:41:302
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19dfb72a: startup date [Fri Jun 29 19:53:45 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:53:45:883
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:53:45:934
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:53:46:273
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c767a52: startup date [Fri Jun 29 19:53:46 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:53:46:321
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:53:46:322
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:53:46:406
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:53:46:483
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:53:46:664
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1uj9wkx2ja1qi41wy|3f1d2e23, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1uj9wkx2ja1qi41wy|3f1d2e23, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:53:47:387
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19dfb72a: startup date [Fri Jun 29 19:53:57 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:53:57:140
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:53:57:190
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:53:57:509
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c767a52: startup date [Fri Jun 29 19:53:57 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:53:57:556
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:53:57:557
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:53:57:634
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:53:57:716
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:53:57:847
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1uj9wkx2rxzlwe9vk|51bd8b5c, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1uj9wkx2rxzlwe9vk|51bd8b5c, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:53:58:659
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19dfb72a: startup date [Fri Jun 29 19:54:04 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:54:04:812
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:54:04:869
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:54:05:212
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c767a52: startup date [Fri Jun 29 19:54:05 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:54:05:258
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:54:05:258
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:54:05:346
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:54:05:426
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:54:05:549
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1uj9wkx2xvxqi0qa4|3f1d2e23, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1uj9wkx2xvxqi0qa4|3f1d2e23, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:54:06:376
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19dfb72a: startup date [Fri Jun 29 19:54:11 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:54:11:399
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:54:11:448
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:54:11:811
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c767a52: startup date [Fri Jun 29 19:54:11 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:54:11:858
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:54:11:859
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:54:11:935
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:54:12:036
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:54:12:201
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1uj9wkx32zy1vao56y|3f1d2e23, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1uj9wkx32zy1vao56y|3f1d2e23, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:54:13:042
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19dfb72a: startup date [Fri Jun 29 19:54:16 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:54:16:304
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:54:16:355
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:54:16:661
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c767a52: startup date [Fri Jun 29 19:54:16 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:54:16:711
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:54:16:711
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:54:16:788
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:54:16:870
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:54:17:035
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1uj9wkx36py800pgb|3f1d2e23, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1uj9wkx36py800pgb|3f1d2e23, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:54:17:858
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19dfb72a: startup date [Fri Jun 29 19:55:49 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:55:49:999
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:55:50:052
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:55:50:386
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c767a52: startup date [Fri Jun 29 19:55:50 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:55:50:434
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:55:50:435
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:55:50:519
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:55:50:590
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:55:50:720
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1uj9wkx571b2qb8yk|3f1d2e23, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1uj9wkx571b2qb8yk|3f1d2e23, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:55:51:469
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19dfb72a: startup date [Fri Jun 29 19:55:56 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:55:56:594
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:55:56:647
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:55:56:963
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c767a52: startup date [Fri Jun 29 19:55:57 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:55:57:007
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:55:57:008
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:55:57:090
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:55:57:197
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:55:57:330
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1uj9wkx5c4caxjs84|1b410b60, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1uj9wkx5c4caxjs84|1b410b60, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:55:58:071
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19dfb72a: startup date [Fri Jun 29 19:56:03 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:56:03:415
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:56:03:467
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:56:03:834
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c767a52: startup date [Fri Jun 29 19:56:03 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:56:03:878
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:56:03:879
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:56:03:958
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:56:04:041
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:56:04:208
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1uj9wkx5hf315scipc|3f1d2e23, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1uj9wkx5hf315scipc|3f1d2e23, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:56:05:038
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19dfb72a: startup date [Fri Jun 29 19:56:09 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:56:09:236
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:56:09:309
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:56:09:645
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c767a52: startup date [Fri Jun 29 19:56:09 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:56:09:695
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:56:09:696
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:56:09:785
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:56:09:867
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:56:09:993
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1uj9wkx5lwsxpkyrx|3f1d2e23, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1uj9wkx5lwsxpkyrx|3f1d2e23, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:56:10:770
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19dfb72a: startup date [Fri Jun 29 19:56:16 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:56:16:129
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:56:16:175
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:56:16:505
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c767a52: startup date [Fri Jun 29 19:56:16 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:56:16:553
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:56:16:554
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:56:16:637
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:56:16:738
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:56:16:904
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1uj9wkx5r7p1rd6rj3|3f1d2e23, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1uj9wkx5r7p1rd6rj3|3f1d2e23, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:56:17:795
+Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:56:18:020
+SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+INFO [org.springframework.jdbc.support.SQLErrorCodesFactory] 
+method:org.springframework.jdbc.support.SQLErrorCodesFactory.<init>(SQLErrorCodesFactory.java:128)
+2018-06-29 19:56:18:047
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19dfb72a: startup date [Fri Jun 29 19:56:46 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:56:46:419
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:56:46:482
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:56:46:791
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c767a52: startup date [Fri Jun 29 19:56:46 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:56:46:836
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:56:46:837
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:56:46:917
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:56:46:998
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:56:47:124
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1uj9wkx6ek71cuu1ht|3f1d2e23, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1uj9wkx6ek71cuu1ht|3f1d2e23, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:56:47:886
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19dfb72a: startup date [Fri Jun 29 19:56:54 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:56:54:413
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:56:54:475
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:56:54:802
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c767a52: startup date [Fri Jun 29 19:56:54 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:56:54:845
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:56:54:846
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:56:54:927
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:56:55:014
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:56:55:177
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1uj9wkx6kquq7m56g|3f1d2e23, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1uj9wkx6kquq7m56g|3f1d2e23, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:56:56:036
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19dfb72a: startup date [Fri Jun 29 19:57:10 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:57:10:027
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:57:10:089
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:57:10:408
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c767a52: startup date [Fri Jun 29 19:57:10 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:57:10:447
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:57:10:448
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:57:10:542
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:57:10:615
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:57:10:752
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1uj9wkx6ws6rwtwcl|3f1d2e23, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1uj9wkx6ws6rwtwcl|3f1d2e23, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:57:11:506
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19dfb72a: startup date [Fri Jun 29 19:57:15 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:57:15:419
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:57:15:473
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:57:15:795
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c767a52: startup date [Fri Jun 29 19:57:15 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:57:15:847
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:57:15:848
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:57:15:924
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:57:15:998
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:57:16:143
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1uj9wkx70xv12f9shr|3f1d2e23, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1uj9wkx70xv12f9shr|3f1d2e23, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:57:16:874
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19dfb72a: startup date [Fri Jun 29 19:58:06 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:58:06:735
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:58:06:796
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:58:07:140
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c767a52: startup date [Fri Jun 29 19:58:07 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:58:07:184
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:58:07:185
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:58:07:263
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:58:07:336
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:58:07:466
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1uj9wkx84jv1ibtpgz|3f1d2e23, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1uj9wkx84jv1ibtpgz|3f1d2e23, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:58:08:200
+Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:58:08:475
+SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+INFO [org.springframework.jdbc.support.SQLErrorCodesFactory] 
+method:org.springframework.jdbc.support.SQLErrorCodesFactory.<init>(SQLErrorCodesFactory.java:128)
+2018-06-29 19:58:08:501
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19dfb72a: startup date [Fri Jun 29 19:58:17 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:58:17:837
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:58:17:892
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:58:18:227
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c767a52: startup date [Fri Jun 29 19:58:18 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:58:18:272
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:58:18:272
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:58:18:362
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:58:18:435
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:58:18:558
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1uj9wkx8d3yumrd6n|3f1d2e23, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1uj9wkx8d3yumrd6n|3f1d2e23, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:58:19:314
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19dfb72a: startup date [Fri Jun 29 19:58:25 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:58:25:131
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:58:25:195
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:58:25:531
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c767a52: startup date [Fri Jun 29 19:58:25 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:58:25:598
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:58:25:598
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:58:25:687
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:58:25:769
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:58:25:912
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1uj9wkx8irv1nvpriv|3f1d2e23, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1uj9wkx8irv1nvpriv|3f1d2e23, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:58:26:683
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19dfb72a: startup date [Fri Jun 29 19:58:33 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:58:33:598
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:58:33:651
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:58:34:005
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c767a52: startup date [Fri Jun 29 19:58:34 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:58:34:055
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:58:34:056
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:58:34:158
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:58:34:238
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:58:34:362
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1uj9wkx8pazk27w5i|3f1d2e23, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1uj9wkx8pazk27w5i|3f1d2e23, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:58:35:274
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19dfb72a: startup date [Fri Jun 29 19:58:40 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:58:40:502
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:58:40:567
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:58:40:894
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c767a52: startup date [Fri Jun 29 19:58:40 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:58:40:940
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:58:40:941
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:58:41:026
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:58:41:113
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:58:41:242
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1uj9wkx8um016qj0ew|3f1d2e23, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1uj9wkx8um016qj0ew|3f1d2e23, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:58:42:057
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19dfb72a: startup date [Fri Jun 29 19:58:45 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:58:45:975
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:58:46:025
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:58:46:386
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c767a52: startup date [Fri Jun 29 19:58:46 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:58:46:433
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:58:46:434
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:58:46:514
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:58:46:614
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:58:46:748
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1uj9wkx8yuz9x3a1b|3f1d2e23, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1uj9wkx8yuz9x3a1b|3f1d2e23, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:58:47:537
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19dfb72a: startup date [Fri Jun 29 19:58:51 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:58:51:457
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:58:51:519
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:58:51:852
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c767a52: startup date [Fri Jun 29 19:58:51 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:58:51:896
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:58:51:897
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:58:51:982
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:58:52:055
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:58:52:188
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1uj9wkx9320rpnthl|3f1d2e23, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1uj9wkx9320rpnthl|3f1d2e23, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:58:53:011
+Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:58:53:241
+SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+INFO [org.springframework.jdbc.support.SQLErrorCodesFactory] 
+method:org.springframework.jdbc.support.SQLErrorCodesFactory.<init>(SQLErrorCodesFactory.java:128)
+2018-06-29 19:58:53:270
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19dfb72a: startup date [Fri Jun 29 19:59:09 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:59:09:052
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:59:09:104
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:59:09:424
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c767a52: startup date [Fri Jun 29 19:59:09 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 19:59:09:470
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 19:59:09:470
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 19:59:09:556
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:59:09:644
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:59:09:785
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1uj9wkx9gmp6k8fff|3f1d2e23, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1uj9wkx9gmp6k8fff|3f1d2e23, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 19:59:10:609
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19dfb72a: startup date [Fri Jun 29 20:00:10 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 20:00:10:301
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 20:00:10:347
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 20:00:10:668
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c767a52: startup date [Fri Jun 29 20:00:10 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-06-29 20:00:10:727
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-06-29 20:00:10:728
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-06-29 20:00:10:808
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 20:00:10:893
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 20:00:11:042
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1uj9wkxarwg1id6gef|6ca18a14, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1uj9wkxarwg1id6gef|6ca18a14, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-06-29 20:00:11:815
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@59a6e353: startup date [Tue Jul 03 13:00:49 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-07-03 13:00:49:468
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-07-03 13:00:49:523
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-07-03 13:00:49:917
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-07-03 13:00:50:028
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-07-03 13:00:50:161
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1tl9wq82wb66bfwc|3d285d7e, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1tl9wq82wb66bfwc|3d285d7e, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-07-03 13:00:50:809
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@59a6e353: startup date [Tue Jul 03 14:26:55 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-07-03 14:26:55:621
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-07-03 14:26:55:677
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-07-03 14:26:56:021
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-07-03 14:26:56:131
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-07-03 14:26:56:276
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1tl9wqb5mi21dhgfg0|3d285d7e, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1tl9wqb5mi21dhgfg0|3d285d7e, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-07-03 14:26:56:897
+Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-07-03 14:26:57:191
+SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+INFO [org.springframework.jdbc.support.SQLErrorCodesFactory] 
+method:org.springframework.jdbc.support.SQLErrorCodesFactory.<init>(SQLErrorCodesFactory.java:128)
+2018-07-03 14:26:57:225
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@59a6e353: startup date [Tue Jul 03 14:27:50 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-07-03 14:27:51:005
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-07-03 14:27:51:066
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-07-03 14:27:51:434
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-07-03 14:27:51:599
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-07-03 14:27:51:786
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1tl9wqb6tb5fjl91s|3d285d7e, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1tl9wqb6tb5fjl91s|3d285d7e, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-07-03 14:27:52:395
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@59a6e353: startup date [Tue Jul 03 21:51:21 GMT+08:00 2018]; root of context hierarchy
+INFO [org.springframework.context.support.ClassPathXmlApplicationContext] 
+method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+2018-07-03 21:51:21:979
+Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] 
+method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+2018-07-03 21:51:22:054
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] 
+method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+2018-07-03 21:51:22:462
+MLog clients using slf4j logging.
+INFO [com.mchange.v2.log.MLog] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-07-03 21:51:22:580
+Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+INFO [com.mchange.v2.c3p0.C3P0Registry] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-07-03 21:51:22:762
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge1tl9wqr16h5ik16gg|fbd1f6, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge1tl9wqr16h5ik16gg|fbd1f6, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+INFO [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] 
+method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:212)
+2018-07-03 21:51:23:351

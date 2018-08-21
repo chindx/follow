@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper
+	namespace="com.zhiyou100.crowdfunding.mapper.ProjectsMapper">
+	<!-- 定义ProjectsMap -->
+	<resultMap id="ProjectsMap"
+		type="com.zhiyou100.crowdfunding.model.Projects">
+		<id column="ps_id" property="id"></id>
+		<result column="ps_us_id" property="userId"></result>
+		<result column="ps_cust_name" property="custName"></result>
+		<result column="ps_cust_phone" property="custPhone"></result>
+		<result column="ps_cust_address" property="custAddress"></result>
+		<result column="ps_pst_id" property="pstId"></result>
+		<result column="ps_file" property="file"></result>
+		<result column="ps_name" property="name"></result>
+		<result column="ps_goal" property="goal"></result>
+		<result column="ps_address" property="address"></result>
+		<result column="ps_money" property="money"></result>
+		<result column="ps_days" property="days"></result>
+		<result column="ps_video" property="video"></result>
+		<result column="ps_story" property="story"></result>
+		<result column="ps_support" property="support"></result>
+		<result column="ps_repay" property="repay"></result>
+		<result column="ps_aboutme" property="aboutMe"></result>
+		<result column="ps_type" property="type"></result>
+		<result column="ps_starttime" property="startTime"></result>
+		<result column="ps_endtime" property="endTime"></result>
+		<result column="ps_getmoney" property="raisedMoney"></result>
+		<result column="ps_getpeople" property="supporter"></result>
+		<result column="ps_auditor" property="auditor"></result>
+		<!-- 添加一对一映射 -->
+		<association property="user" javaType="User">
+			<id column="us_id" property="id" />
+			<result column="us_name" property="name" />
+			<result column="us_idcard" property="idcard" />
+			<result column="us_phone" property="phone" />
+			<result column="us_address" property="address" />
+			<result column="us_sex" property="sex" />
+		</association>
+		<association property="psType" javaType="ProjectsType">
+			<id column="pst_id" property="id" />
+			<result column="pst_name" property="name" />
+		</association>
+		<association property="admin" javaType="Admin">
+			<id column="admin_id" property="id"></id>
+			<result column="admin_name" property="name" />
+		</association>
+	</resultMap>
+	<!-- 添加数据 -->
+	<insert id="doCreate"
+		parameterType="com.zhiyou100.crowdfunding.model.Projects">
+		INSERT INTO projects(ps_id, ps_us_id, ps_cust_name,
+		ps_cust_phone,
+		ps_cust_address, ps_pst_id, ps_file,
+		ps_name, ps_goal,
+		ps_address, ps_money,
+		ps_days, ps_video, ps_story, ps_support,
+		ps_repay, ps_aboutme, ps_type, ps_starttime, ps_endtime, ps_getmoney,
+		ps_getpeople, ps_auditor) VALUES
+		(#{id}, #{userId}, #{custName},
+		#{custPhone},#{custAddress},#{pstId}, #{file},#{name}, #{goal},
+		#{address},#{money},#{days}, #{video},#{story},#{support},#{repay},
+		#{aboutMe},#{type},#{startTime},#{endTime},
+		#{raisedMoney},#{supporter},
+		#{auditor});
+	</insert>
+	<!-- 修改数据 -->
+	<update id="doUpdate"
+		parameterType="com.zhiyou100.crowdfunding.model.Projects">
+		UPDATE projects SET ps_us_id = #{userId}, ps_cust_name =
+		#{custName},
+		ps_cust_phone = #{custPhone}, ps_cust_address =
+		#{custAddress},
+		ps_pst_id = #{pstId},
+		ps_file = #{file}, ps_name =
+		#{name}, ps_pst_id = #{pstId},
+		ps_file = #{file}, ps_name = #{name},
+		ps_goal = #{goal},
+		ps_address = #{address}, ps_money = #{money},
+		ps_days = #{days},
+		ps_video = #{video}, ps_story = #{story}, ps_support
+		= #{support}, ps_repay = #{repay},
+		ps_aboutme = #{aboutMe}, ps_type =
+		#{type}, ps_starttime = #{startTime}, ps_endtime = #{endTime},
+		ps_getmoney = #{raisedMoney},ps_getpeople = #{supporter},
+		ps_auditor =
+		#{auditor} WHERE ps_id = #{id};
+	</update>
+	<!-- 单个删除 -->
+	<delete id="doRemove" parameterType="java.lang.Integer">
+		DELETE FROM projects WHERE
+		ps_id
+		= #{id};
+	</delete>
+	<!-- 批量删除 -->
+	<delete id="doRemoveBatch" parameterType="java.lang.Integer">
+		DELETE FROM projects WHERE ps_id IN
+		<foreach item="col" collection="collection" open="("
+			separator="," close=")">
+			#{col}
+		</foreach>
+	</delete>
+	<!-- 根据id查询 -->
+	<select id="findById" parameterType="java.lang.Integer"
+		resultMap="ProjectsMap">
+		SELECT p.ps_id, p.ps_us_id, p.ps_cust_name, p.ps_cust_phone,
+		p.ps_cust_address, p.ps_pst_id, p.ps_file, p.ps_name, p.ps_goal,
+		p.ps_address, p.ps_money, p.ps_days, p.ps_video, p.ps_story,
+		p.ps_support, p.ps_repay, p.ps_aboutme, p.ps_type, p.ps_starttime,
+		p.ps_endtime, p.ps_getmoney, p.ps_getpeople, p.ps_auditor, u.us_id,
+		u.us_name, u.us_idcard, u.us_phone, u.us_address, u.us_sex,
+		pst.pst_id, pst.pst_name, ad.admin_id, ad.admin_name
+		FROM
+		projects p
+		LEFT JOIN user u ON p.ps_us_id=u.us_id
+		LEFT JOIN projectstype pst ON
+		p.ps_pst_id=pst.pst_id
+		LEFT JOIN admin ad ON
+		p.ps_auditor=ad.admin_id
+		WHERE p.ps_id = #{id};
+	</select>
+	<!-- 查询所有 -->
+	<select id="findAll" resultMap="ProjectsMap">
+		SELECT ps_id, ps_us_id,
+		ps_cust_name,
+		ps_cust_phone,
+		ps_cust_address, ps_pst_id, ps_file,
+		ps_name, ps_goal,
+		ps_address, ps_money,
+		ps_days, ps_video, ps_story,
+		ps_support,
+		ps_repay, ps_aboutme, ps_type, ps_starttime, ps_endtime,
+		ps_getmoney,
+		ps_getpeople, ps_auditor FROM
+		projects;
+	</select>
+	<!-- 查询所有 -->
+	<select id="findAllId" resultType="java.lang.Integer">
+		SELECT ps_id FROM projects;
+	</select>	
+	<!-- 查询所有行数 -->
+	<select id="findAllCount" resultType="java.lang.Long">
+		SELECT COUNT(0) FROM
+		projects;
+	</select>
+	<!-- 条件查询行数 -->
+	<select id="findCountByColumn" parameterType="java.util.Map"
+		resultType="java.lang.Long">
+		SELECT COUNT(0) FROM projects
+		<if test="column != null and keyword != null">
+			WHERE ${column} LIKE #{keyword}
+		</if>
+		;
+	</select>
+	<!-- 查询特定状态的数量 -->
+	<select id="findCountByType" parameterType="java.util.List"
+		resultType="java.lang.Long">
+		SELECT COUNT(0) FROM projects p
+		LEFT JOIN user u ON
+		p.ps_us_id=u.us_id
+		LEFT JOIN projectstype
+		pst ON p.ps_pst_id=pst.pst_id
+		LEFT JOIN admin ad ON
+		p.ps_auditor=ad.admin_id		
+		WHERE p.ps_type IN 
+		<foreach item="type" collection="list" open="(" separator=", " close=")">
+		${type}
+		</foreach>
+	</select>
+	<!-- 条件查询数量-->
+	<select id="findCountByKeyword" parameterType="java.util.Map"
+		resultType="java.lang.Long">
+		SELECT COUNT(0) FROM projects p
+		LEFT JOIN user u ON
+		p.ps_us_id=u.us_id
+		LEFT JOIN projectstype
+		pst ON p.ps_pst_id=pst.pst_id
+		LEFT JOIN admin ad ON
+		p.ps_auditor=ad.admin_id		
+		WHERE p.ps_name LIKE #{name} AND u.us_name LIKE #{userName} AND pst.pst_id Like #{pstId} AND p.ps_type IN
+		<foreach item="type" collection="list" open="(" separator=", " close=")">
+		${type}
+		</foreach>			
+	</select>
+	<!-- 分页查询 -->
+	<select id="findAllSplit" parameterType="java.util.Map"
+		resultMap="ProjectsMap">
+		SELECT p.ps_id, p.ps_us_id, p.ps_cust_name, p.ps_cust_phone,
+		p.ps_cust_address, p.ps_pst_id, p.ps_file, p.ps_name, p.ps_goal,
+		p.ps_address, p.ps_money, p.ps_days, p.ps_video, p.ps_story,
+		p.ps_support, p.ps_repay, p.ps_aboutme, p.ps_type, p.ps_starttime,
+		p.ps_endtime, p.ps_getmoney, p.ps_getpeople, p.ps_auditor, u.us_id,
+		u.us_name, u.us_idcard, u.us_phone, u.us_address, u.us_sex,
+		pst.pst_id, pst.pst_name, ad.admin_id, ad.admin_name
+		FROM
+		projects p
+		LEFT JOIN user u ON
+		p.ps_us_id=u.us_id
+		LEFT JOIN projectstype
+		pst ON p.ps_pst_id=pst.pst_id
+		LEFT JOIN admin ad ON
+		p.ps_auditor=ad.admin_id		
+		LIMIT #{start},
+		#{lineSize};
+	</select>
+	<!-- 模糊分页查询 -->
+	<select id="findSplitByColumn" parameterType="java.util.Map"
+		resultMap="ProjectsMap">
+		SELECT p.ps_id, p.ps_us_id, p.ps_cust_name, p.ps_cust_phone,
+		p.ps_cust_address, p.ps_pst_id, p.ps_file, p.ps_name, p.ps_goal,
+		p.ps_address, p.ps_money, p.ps_days, p.ps_video, p.ps_story,
+		p.ps_support, p.ps_repay, p.ps_aboutme, p.ps_type, p.ps_starttime,
+		p.ps_endtime, p.ps_getmoney, p.ps_getpeople, p.ps_auditor, u.us_id,
+		u.us_name, u.us_idcard, u.us_phone, u.us_address, u.us_sex,
+		pst.pst_id, pst.pst_name, ad.admin_id, ad.admin_name
+		FROM
+		projects p
+		LEFT JOIN user u ON
+		p.ps_us_id=u.us_id
+		LEFT JOIN projectstype
+		pst ON p.ps_pst_id=pst.pst_id
+		LEFT JOIN admin ad ON
+		p.ps_auditor=ad.admin_id
+		<if test="column != null and keyword != null">
+			WHERE ${column} LIKE #{keyword}
+		</if>
+		LIMIT #{start}, #{lineSize};
+	</select>
+	<!-- 分页查询 -->
+	<select id="findSplitByType" parameterType="java.util.Map"
+		resultMap="ProjectsMap">
+		SELECT p.ps_id, p.ps_us_id, p.ps_cust_name, p.ps_cust_phone,
+		p.ps_cust_address, p.ps_pst_id, p.ps_file, p.ps_name, p.ps_goal,
+		p.ps_address, p.ps_money, p.ps_days, p.ps_video, p.ps_story,
+		p.ps_support, p.ps_repay, p.ps_aboutme, p.ps_type, p.ps_starttime,
+		p.ps_endtime, p.ps_getmoney, p.ps_getpeople, p.ps_auditor, u.us_id,
+		u.us_name, u.us_idcard, u.us_phone, u.us_address, u.us_sex,
+		pst.pst_id, pst.pst_name, ad.admin_id, ad.admin_name
+		FROM
+		projects p
+		LEFT JOIN user u ON
+		p.ps_us_id=u.us_id
+		LEFT JOIN projectstype
+		pst ON p.ps_pst_id=pst.pst_id
+		LEFT JOIN admin ad ON
+		p.ps_auditor=ad.admin_id		
+		WHERE p.ps_type IN 
+		<foreach item="type" collection="list" open="(" separator=", " close=")">
+		${type}
+		</foreach>		
+		LIMIT #{start}, #{lineSize};
+	</select>
+	<!-- 模糊分页查询 -->
+	<select id="findSplitByKeyword" parameterType="java.util.Map"
+		resultMap="ProjectsMap">
+		SELECT p.ps_id, p.ps_us_id, p.ps_cust_name, p.ps_cust_phone,
+		p.ps_cust_address, p.ps_pst_id, p.ps_file, p.ps_name, p.ps_goal,
+		p.ps_address, p.ps_money, p.ps_days, p.ps_video, p.ps_story,
+		p.ps_support, p.ps_repay, p.ps_aboutme, p.ps_type, p.ps_starttime,
+		p.ps_endtime, p.ps_getmoney, p.ps_getpeople, p.ps_auditor, u.us_id,
+		u.us_name, u.us_idcard, u.us_phone, u.us_address, u.us_sex,
+		pst.pst_id, pst.pst_name, ad.admin_id, ad.admin_name
+		FROM
+		projects p
+		LEFT JOIN user u ON
+		p.ps_us_id=u.us_id
+		LEFT JOIN projectstype
+		pst ON p.ps_pst_id=pst.pst_id
+		LEFT JOIN admin ad ON
+		p.ps_auditor=ad.admin_id		
+		WHERE p.ps_name LIKE #{name} AND u.us_name LIKE #{userName} AND pst.pst_id Like #{pstId} AND p.ps_type IN
+		<foreach item="type" collection="list" open="(" separator=", " close=")">
+		${type}
+		</foreach>		
+		LIMIT #{start}, #{lineSize};
+	</select>
+</mapper>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 配置缓存 需要同时实现Serializable接口 -->
+	<!-- 配置映射类xml <cache eviction="FIFO" flushInterval="10000" readOnly="true" 
+		size="512" /> LRU-默认的。最近最少算法，将最近使用的对象进行清空。 FIFO-先进先出算法，默认自动清除最早缓存的数据对象。 SOFT-软引用，但内存不足时，执行GC会立刻清除。 
+		WEAk-强引用，只要发生GC，该缓存对象被清空 flushInterval-刷新时间 readOnly-只读 -->
+	<settings>
+		<setting name="cacheEnabled" value="true" />
+	</settings>
+	<!-- <environments default="development"> <environment id="development"> 
+		<transactionManager type="JDBC" /> <dataSource type="POOLED"> <property name="driver" 
+		value="com.mysql.jdbc.Driver" /> <property name="url" value="jdbc:mysql://localhost:3306/crowdfunding" 
+		/> <property name="username" value="root" /> <property name="password" value="123456" 
+		/> </dataSource> </environment> </environments> <mappers> <mapper resource="com/zhiyou100/crowdfunding/mapper/user.xml" 
+		/> </mappers> -->
+	<typeAliases>
+		<package name="com.zhiyou100.crowdfunding.model" />
+	</typeAliases>
+</configuration>

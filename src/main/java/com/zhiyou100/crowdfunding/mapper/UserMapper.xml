@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhiyou100.crowdfunding.mapper.UserMapper">
+	<!-- 定义UserMap -->
+	<resultMap id="UserMap"
+		type="com.zhiyou100.crowdfunding.model.User">
+		<id column="us_id" property="id"></id>
+		<result column="us_email" property="email"></result>
+		<result column="us_name" property="name"></result>
+		<result column="us_password" property="password"></result>
+		<result column="us_money" property="money"></result>
+		<result column="us_idcard" property="idcard"></result>
+		<result column="us_phone" property="phone"></result>
+		<result column="us_address" property="address"></result>
+		<result column="us_role" property="role"></result>
+		<result column="us_sex" property="sex"></result>
+		<result column="us_code" property="code"></result>
+		<result column="us_create_time" property="createTime"></result>
+		<result column="us_update_time" property="updateTime"></result>
+		<result column="us_realname" property="realName"></result>
+	</resultMap>
+	<!-- 添加数据 -->
+	<insert id="doCreate"
+		parameterType="com.zhiyou100.crowdfunding.model.User">
+		INSERT INTO user(us_id, us_email, us_name, us_password,
+		us_money, us_idcard, us_phone,
+		us_address, us_role, us_sex, us_code,
+		us_create_time, us_update_time, us_realname) VALUES
+		(#{id}, #{email}, #{name},
+		#{password},#{money},#{idcard}, #{phone},#{address}, #{role},
+		#{sex},#{code},#{createTime}, #{updateTime}, #{realName});
+	</insert>
+	<!-- 修改数据 -->
+	<update id="doUpdate"
+		parameterType="com.zhiyou100.crowdfunding.model.User">
+		UPDATE user SET us_email = #{email}, us_name = #{name},
+		us_password = #{password}, us_money = #{money},
+		us_idcard = #{idcard}, us_phone = #{phone}, us_address = #{address}, us_role = #{role},
+		us_sex = #{sex}, us_code = #{code}, us_create_time = #{createTime},
+		us_update_time = #{updateTime}, us_realname = #{realName} WHERE us_id = #{id};
+	</update>
+	<!-- 激活 -->
+	<update id="activeEMail"
+		parameterType="java.lang.String">
+		UPDATE user SET  us_role = 1 WHERE us_code = #{code};
+	</update>
+	<!-- 单个删除 -->
+	<delete id="doRemove" parameterType="java.lang.Integer">
+		DELETE FROM user WHERE us_id
+		= #{id};
+	</delete>
+	<!-- 批量删除 -->
+	<delete id="doRemoveBatch" parameterType="java.lang.Integer">
+		DELETE FROM user WHERE us_id IN
+		<foreach item="col" collection="collection" open="("
+			separator="," close=")">
+			#{col}
+		</foreach>
+	</delete>
+	<!-- 根据id查询 -->
+	<select id="findById" parameterType="java.lang.Integer"
+		resultMap="UserMap">
+		SELECT us_id, us_email, us_name, us_password,
+		us_money,
+		us_idcard, us_phone,
+		us_address, us_role, us_sex, us_code,
+		us_create_time, us_update_time, us_realname FROM
+		user WHERE us_id = #{id};
+	</select>
+	<!-- 根据关键字查询,实现登录验证 -->
+	<select id="findByKeyword" parameterType="java.util.Map"
+		resultMap="UserMap">
+		SELECT us_id, us_email, us_name, us_password,
+		us_money,
+		us_idcard, us_phone,
+		us_address, us_role, us_sex, us_code,
+		us_create_time, us_update_time, us_realname FROM
+		user WHERE ${column} = #{keyword} AND us_password = #{password};
+	</select>
+	<!-- 查询所有 -->
+	<select id="findAll" resultMap="UserMap">
+		SELECT us_id, us_email, us_name,
+		us_password, us_money, us_idcard, us_phone,
+		us_address, us_role, us_sex, us_code,
+		us_create_time, us_update_time, us_realname FROM user;
+	</select>
+	<!-- 查询所有id -->
+	<select id="findAllId" resultType="java.lang.Integer">
+		SELECT us_id FROM user;
+	</select>
+	<!-- 查询所有行数 -->
+	<select id="findAllCount" resultType="java.lang.Long">
+		SELECT COUNT(0) FROM user;
+	</select>
+	<!-- 条件查询行数 -->
+	<select id="findCountByColumn" parameterType="java.util.Map"
+		resultType="java.lang.Long">
+		SELECT COUNT(0) FROM user
+		<if test="column != null and keyword != null">
+			WHERE ${column} LIKE #{keyword}
+		</if>
+		;
+	</select>
+	<!-- 分页查询 -->
+	<select id="findAllSplit" parameterType="java.util.Map"
+		resultMap="UserMap">
+		SELECT us_id, us_email, us_name, us_password,
+		us_money,
+		us_idcard, us_phone,
+		us_address, us_role, us_sex, us_code,
+		us_create_time, us_update_time, us_realname FROM user LIMIT #{start},
+		#{lineSize};
+	</select>
+	<!-- 模糊分页查询 -->
+	<select id="findSplitByColumn" parameterType="java.util.Map"
+		resultMap="UserMap">
+		SELECT us_id, us_email, us_name, us_password,
+		us_money,
+		us_idcard,
+		us_phone,
+		us_address, us_role, us_sex, us_code,
+		us_create_time,
+		us_update_time, us_realname FROM user
+		<if test="column != null and keyword != null">
+			WHERE ${column} LIKE #{keyword}
+		</if>
+		LIMIT #{start}, #{lineSize};
+	</select>
+</mapper>

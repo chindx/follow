@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper
+	namespace="com.zhiyou100.crowdfunding.mapper.FundingMapper">
+	<!-- 定义FundingMap -->
+	<resultMap id="FundingMap"
+		type="com.zhiyou100.crowdfunding.model.Funding">
+		<id column="fd_id" property="id"></id>
+		<result column="fd_us_id" property="userId"></result>
+		<result column="fd_ps_id" property="psId"></result>
+		<result column="fd_money" property="money"></result>
+		<result column="fd_time" property="time"></result>
+		<association property="user" javaType="User">
+			<id column="us_id" property="id" />
+			<result column="us_name" property="name" />
+		</association>
+		<association property="projects" javaType="Projects">
+			<id column="ps_id" property="id" />
+			<result column="ps_name" property="name" />
+			<result column="ps_money" property="money"/>
+			<result column="ps_getmoney" property="raisedMoney"/>
+			<result column="ps_getpeople" property="supporter"/>
+		</association>
+	</resultMap>
+	<!-- 添加数据 -->
+	<insert id="doCreate"
+		parameterType="com.zhiyou100.crowdfunding.model.Funding">
+		INSERT INTO funding(fd_id, fd_us_id, fd_ps_id,
+		fd_money,
+		fd_time) VALUES
+		(#{id}, #{userId}, #{psId},
+		#{money}, #{time});
+	</insert>
+	<!-- 修改数据 -->
+	<update id="doUpdate"
+		parameterType="com.zhiyou100.crowdfunding.model.Funding">
+		UPDATE funding SET fd_us_id = #{userId},
+		fd_ps_id =
+		#{psId}, fd_money = #{money}, fd_time =
+		#{time} WHERE fd_id = #{id};
+	</update>
+	<!-- 单个删除 -->
+	<delete id="doRemove" parameterType="java.lang.Integer">
+		DELETE FROM funding WHERE
+		fd_id
+		= #{id};
+	</delete>
+	<!-- 批量删除 -->
+	<delete id="doRemoveBatch" parameterType="java.lang.Integer">
+		DELETE FROM funding WHERE fd_id IN
+		<foreach item="col" collection="collection" open="("
+			separator="," close=")">
+			#{col}
+		</foreach>
+	</delete>
+	<!-- 根据id查询 -->
+	<select id="findById" parameterType="java.lang.Integer"
+		resultMap="FundingMap">
+		SELECT fd_id, fd_us_id, fd_ps_id, fd_money,
+		fd_time FROM
+		funding WHERE fd_id = #{id};
+	</select>
+	<!-- 查询所有 -->
+	<select id="findAll" resultMap="FundingMap">
+		SELECT fd_id, fd_us_id,
+		fd_ps_id,
+		fd_money, fd_time FROM funding;
+	</select>
+	<!-- 查询所有id -->
+	<select id="findAllId" resultType="java.lang.Integer">
+		SELECT fd_id FROM funding;
+	</select>
+	<!-- 查询所有行数 -->
+	<select id="findAllCount" resultType="java.lang.Long">
+		SELECT COUNT(0) FROM
+		funding;
+	</select>
+	<!-- 条件查询行数 -->
+	<select id="findCountByColumn" parameterType="java.util.Map"
+		resultType="java.lang.Long">
+		SELECT COUNT(0) FROM funding
+		<if test="column != null and keyword != null">
+			WHERE ${column} LIKE #{keyword}
+		</if>
+		;
+	</select>
+	<!-- 分页查询 -->
+	<select id="findAllSplit" parameterType="java.util.Map"
+		resultMap="FundingMap">
+		SELECT f.fd_id, f.fd_us_id, f.fd_ps_id, f.fd_money,
+		f.fd_time,
+		us.us_id, us.us_name, ps.ps_id, ps.ps_name FROM funding f
+		LEFT JOIN
+		user us ON f.fd_us_id=us.us_id
+		LEFT JOIN projects ps ON
+		f.fd_ps_id=ps.ps_id LIMIT #{start}, #{lineSize};
+	</select>
+	<!-- 模糊分页查询 -->
+	<select id="findSplitByColumn" parameterType="java.util.Map"
+		resultMap="FundingMap">
+		SELECT f.fd_id, f.fd_us_id, f.fd_ps_id, f.fd_money,
+		f.fd_time,
+		us.us_id, us.us_name, ps.ps_id, ps.ps_name, ps.ps_money, ps.ps_getmoney, ps.ps_getpeople FROM funding f
+		LEFT JOIN
+		user us ON f.fd_us_id=us.us_id
+		LEFT JOIN projects ps ON
+		f.fd_ps_id=ps.ps_id
+		<if test="column != null and keyword != null">
+			WHERE ${column} LIKE #{keyword}
+		</if>
+		LIMIT #{start}, #{lineSize};
+	</select>
+</mapper>
